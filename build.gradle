@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Your dependencies
+}
+
+// Define the main class
+application {
+    mainClassName = 'com.example.Main'
+}
+
